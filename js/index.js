@@ -6,11 +6,11 @@ var ctx = c.getContext('2d');
 c.width = width;
 c.height = height;
 
-ctx.globalAlpha = .2
+ctx.globalAlpha = 1
 	var speed = 999;
-	var size = 999;
+	var size = 9;
 	var lines = [];
-	var totalLines =99;
+	var totalLines =999;
 	
 	var init = function(){
 	
@@ -162,3 +162,4 @@ ctx.globalAlpha = .2
 	}
     
     init();
+ 
